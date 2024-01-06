@@ -47,7 +47,7 @@ brew install graphviz
 
 ### DSPlot installation
 
-Refer to <a href="https://github.com/billtrn/dsplot/blob/master/README.md">DSPlot installation guide</a>
+- Refer to <a href="https://github.com/billtrn/dsplot/blob/master/README.md">DSPlot installation guide</a>
 
 ### Directions to Install
 ```sh
