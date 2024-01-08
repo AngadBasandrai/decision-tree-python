@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Decision Tree and Bagged Decision Trees (in progress) implemented from scratch in Python
+Binary Decision Tree and Bagged Decision Trees(under development) implemented from scratch in Python
 
 Given a dataset the goal of the algorithm(s) is to generate one/many Binary Decision Trees to accurately predict the value of a new example
 
