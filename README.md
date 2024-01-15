@@ -1,9 +1,34 @@
 <h1 align="center"> &nbsp;&nbsp;Decision Tree Python </h1>
 <br/>
 
-> A rudimentary implementation of Decision Trees made in python without using any external machine learning libraries
+> A rudimentary implementation of different Decision Tree related algorithms made in python without using any external machine learning libraries
 
 ---
+
+## Introduction
+
+Binary Decision Tree and Bagged Decision Trees(under development) implemented from scratch in Python
+
+Given a dataset the goal of the algorithm(s) is to generate one/many Binary Decision Trees to accurately predict the value of a new example
+
+In each iteration it calculates the entropy using the formula
+
+> **- { x **·** log<sub>2</sub>(x)&nbsp; + &nbsp;(1 - x) **·** log<sub>2</sub>(1 - x) }**
+  
+where is **x** is the ratio of true cases to total cases
+
+> <a href="https://en.wikipedia.org/wiki/Binary_entropy_function">more</a> about this formula and calculation of entropy in Binary Trees
+
+It further calculates information gain, based on which it decides where to split
+
+Information gain is calculated as follows:
+> Assume that before splitting entropy was H<sub>root</sub> and there were n elements in total
+
+> Now it splits at some feature and sends a and b elements to the left and right branches respectively, with their entropies being H<sub>left</sub> and H<sub>right</sub>
+
+> gain = H<sub>root</sub> - { [ a/n ] **·** H<sub>left</sub> + [ b/n ] **·** H<sub>right</sub> }
+
+The goal is to maximise gain each iteration and for every branch
 
 ## Screenshots
 <p>
