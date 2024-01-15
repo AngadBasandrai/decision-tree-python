@@ -56,6 +56,16 @@ An example result of <a href = "https://github.com/AngadBasandrai/decision-tree-
  - dsplot 0.9.0 (required only for visualisation)
 ## Instructions
 
+### Directions to Install
+```sh
+$ git clone https://github.com/AngadBasandrai/decision-tree-python.git
+```
+
+### Directions to Run
+- Open .ipynb files
+
+<hr/>
+
 ### Graphviz Installation *(required only for visualisation)*
 
 #### Windows
@@ -91,13 +101,6 @@ brew install graphviz
 
 <hr/>
 
-### Directions to Install
-```sh
-$ git clone https://github.com/AngadBasandrai/decision-tree-python.git
-```
-
-### Directions to Run
-- Open .ipynb files
 
 #### NOTE: The files were made in <a href="https://www.kaggle.com/"> kaggle </a> and there may be some portability issues so it is recommended to import them into kaggle
   
