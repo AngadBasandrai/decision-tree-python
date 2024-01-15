@@ -5,11 +5,14 @@
 
 ---
 
-## Introduction
 
-Binary Decision Tree and Bagged Decision Trees(under development) implemented from scratch in Python
+# Introduction
 
-Given a dataset the goal of the algorithm(s) is to generate one/many Binary Decision Trees to accurately predict the value of a new example
+Binary Decision Tree and Bagged Decision Trees implemented from scratch in Python
+
+# Binary Decision Tree
+
+Given a dataset the goal of the algorithm is to generate a Binary Decision Tree to accurately predict the value of a new example
 
 In each iteration it calculates the entropy using the formula
 
@@ -30,18 +33,30 @@ Information gain is calculated as follows:
 
 The goal is to maximise gain each iteration and for every branch
 
+# Bagged Decision Trees Algorithm
+
+Given a dataset the goal of the algorithm is to generate a set of 'n' Binary Decision Trees to predict the probability of a new example being true or false
+
+Each Binary Decision Tree is created on a unique dataset generated with sampling with replacement on the original dataset
+
+The generation of the Binary Decision Trees follows the same process as before only with a different dataset
+
 ## Screenshots
 <p>
 <img src="tree.jpg" alt="Screenshot" width="400px"/>
 </p>
+An example result of <a href = "https://github.com/AngadBasandrai/decision-tree-python/blob/main/binarydecisiontree.ipynb">binarydecisiontree.ipynb</a> <em>(implementation of Binary Decision Tree)</em>
+
+<br/>
+<br/>
 
 ## Dependencies
  - Python 3.x
- - graphviz 9.0.0
- - dsplot 0.9.0
+ - graphviz 9.0.0 (required only for visualisation)
+ - dsplot 0.9.0 (required only for visualisation)
 ## Instructions
 
-### Graphviz Installation
+### Graphviz Installation *(required only for visualisation)*
 
 #### Windows
 - <a href="https://graphviz.org/download/">Graphviz Downloads</a>
@@ -70,9 +85,11 @@ sudo port install graphviz
 brew install graphviz
 ```
 
-### DSPlot installation
+### DSPlot installation *(required only for visualisation)*
 
 - Refer to <a href="https://github.com/billtrn/dsplot/blob/master/README.md">DSPlot installation guide</a>
+
+<hr/>
 
 ### Directions to Install
 ```sh
